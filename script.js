@@ -1,3 +1,9 @@
 /* Bohdan*/
-document.body.innerHTML = <h1>Hello from JavaScript</h1>
-console.log("test2")
+function greet (name, owner) {
+    if (name===owner){
+      return 'Hello boss'
+    } else {
+      return 'Hello guest'
+    }
+  }
+/*console.log(booleanToString);
