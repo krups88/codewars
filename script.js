@@ -1,9 +1,8 @@
 /* Bohdan*/
-function greet (name, owner) {
-    if (name===owner){
-      return 'Hello boss'
-    } else {
-      return 'Hello guest'
-    }
-  }
+function boolToWord( bool ){
+    if (bool === true) {return "Yes"}
+else { return "No"}
+}
 /*console.log(booleanToString);
+
+
